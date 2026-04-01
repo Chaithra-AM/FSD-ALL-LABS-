@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+.title {
+  color: #1a202c;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  color: #718096;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 2rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.nav-home { background-color: #3b82f6; } 
+.nav-about { background-color: #22c55e; } 
+.nav-contact { background-color: #a855f7; } 
+
+.alert-box {
+  background-color: #eff6ff;
+  border-left: 5px solid #3b82f6;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+.alert-box strong {
+  color: #1e3a8a;
+  font-weight: 800;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 2rem 0;
+}
+.recap-section {
+  text-align: left;
+}
+.recap-section h3 {
+  color: #2d3748;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.recap-section ul {
+  padding-left: 20px;
+  color: #4a5568;
+  line-height: 1.8;
+}
+.recap-section li {
+  margin-bottom: 0.5rem;
+}
+.recap-section strong {
+  color: #2d3748;
+}

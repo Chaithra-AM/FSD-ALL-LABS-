@@ -1,0 +1,15 @@
+{
+  "short_name": "Deal Alerts",
+  "name": "PWA Deal Alerts",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1163/1163337.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1b21",
+  "background_color": "#1a1b21"
+}

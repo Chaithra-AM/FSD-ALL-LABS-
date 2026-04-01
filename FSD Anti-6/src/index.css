@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a1b21;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Card classes */
+.card-light-blue {
+  background-color: #e0f7fa;
+  color: #006064;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.card-light-gray {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity 0.25s;
+  margin-top: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-teal {
+  background-color: #00838f;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn-gray {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.product-card {
+  border: 1px solid #444;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+
+.header-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  max-width: 650px;
+  width: 100%;
+  padding: 2rem;
+}
